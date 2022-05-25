@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: coral;
 }
 
 .flex {
@@ -14,16 +15,28 @@ body {
     flex-wrap: wrap;
 }
 
+h1 {
+    padding: 50px;
+}
+
 .card {
-    background-color: rgb(126, 237, 202);
+    background-color: rgb(240, 182, 112);
     border-radius: 20px;
     text-align: center;
-    padding: 20px;
+    padding: 50px;
     margin: 30px;
     width: 500px;
+    transition: all 1s;
 
+    &:hover {
+        transform: scale(1.1);
+    }
 
     p {
         font-size: 14px;
     }
+}
+
+.card-description {
+    border: 3px solid blue;
 }

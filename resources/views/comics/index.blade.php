@@ -1,5 +1,6 @@
 @extends('layout.app')
 @section('content')
+    <h1>Lista fumetti:</h1>
     <div class="flex">
         @foreach ($comics as $comic)
             <div class="card">
