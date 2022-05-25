@@ -1,16 +1,29 @@
 //
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .card {
-    background-color: rgb(126, 209, 237);
+    background-color: rgb(126, 237, 202);
     border-radius: 20px;
     text-align: center;
     padding: 20px;
     margin: 30px;
+    width: 500px;
+
 
     p {
-        font-size: 18px;
+        font-size: 14px;
     }
 }
