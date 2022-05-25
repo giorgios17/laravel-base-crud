@@ -40,3 +40,13 @@ h1 {
 .card-description {
     border: 3px solid blue;
 }
+
+a {
+    text-decoration: none;
+    color: red;
+
+    &:hover {
+        text-decoration: underline;
+
+    }
+}
