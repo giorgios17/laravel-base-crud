@@ -9,7 +9,11 @@
 </head>
 
 <body>
-    <div>Sono qua!</div>
+    @foreach ($comics as $comic)
+        <div>
+            <h3>{{ $comic['title'] }}</h3>
+        </div>
+    @endforeach
 </body>
 
 </html>

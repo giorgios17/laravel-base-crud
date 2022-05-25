@@ -14,8 +14,13 @@ class ComicController extends Controller
      */
     public function index()
     {
-        //
-        return view('home', config('comics'));
+        //variabile con dati preso dal model(database)
+        $comics = Comic::all();
+
+        //variabile con dati presi dal file nella cartella config(prima di fare il seed dentro la tabella)
+        //$comicsList = config('comics');
+
+        return view('home', compact('comics'));
     }
 
     /**
