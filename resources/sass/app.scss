@@ -1,1 +1,16 @@
 //
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    background-color: rgb(126, 209, 237);
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+
+    p {
+        font-size: 18px;
+    }
+}
