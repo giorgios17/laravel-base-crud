@@ -14,4 +14,5 @@
         <h3>Genere: </h3>
         <p>{{ $comic->type }}</p>
     </div>
+    <a href="{{ route('comics.index') }}">Lista fumetti</a>
 @endsection
