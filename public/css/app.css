@@ -25,11 +25,6 @@ h1 {
   padding: 50px;
   margin: 30px;
   width: 500px;
-  transition: all 1s;
-}
-
-.card:hover {
-  transform: scale(1.1);
 }
 
 .card p {
@@ -47,5 +42,9 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.margin-auto {
+  margin: auto;
 }
 

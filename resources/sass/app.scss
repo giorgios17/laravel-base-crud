@@ -26,11 +26,6 @@ h1 {
     padding: 50px;
     margin: 30px;
     width: 500px;
-    transition: all 1s;
-
-    &:hover {
-        transform: scale(1.1);
-    }
 
     p {
         font-size: 14px;
@@ -49,4 +44,8 @@ a {
         text-decoration: underline;
 
     }
+}
+
+.margin-auto {
+    margin: auto;
 }
