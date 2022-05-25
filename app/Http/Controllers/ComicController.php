@@ -20,7 +20,7 @@ class ComicController extends Controller
         //variabile con dati presi dal file nella cartella config(prima di fare il seed dentro la tabella)
         //$comicsList = config('comics');
 
-        return view('comic.index', compact('comics'));
+        return view('comics.index', compact('comics'));
     }
 
     /**
@@ -54,7 +54,7 @@ class ComicController extends Controller
     {
         //
         $comics = Comic::findOrFail($id);
-        return view('comic.show', compact('comics'));
+        return view('comics.show', compact('comics'));
 
     }
 

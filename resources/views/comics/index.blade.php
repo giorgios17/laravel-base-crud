@@ -13,6 +13,7 @@
                 <p>{{ $comic->sale_date }}</p>
                 <h3>Genere: </h3>
                 <p>{{ $comic->type }}</p>
+                <a href="{{ route('comics', $comic->id) }}">DESCRIZIONE</a>
             </div>
         @endforeach
     </div>
