@@ -3,19 +3,18 @@
     <div class="flex">
         @foreach ($comics as $comic)
             <div class="card">
-                <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
+                <img src="{{ $comic->thumb }}" alt="{{ $comic->title }}">
                 <h3>Titolo: </h3>
-                <p>{{ $comic['title'] }}</p>
+                <p>{{ $comic->title }}</p>
                 <h3>Descrizione:</h3>
-                <p>{{ $comic['description'] }}</p>
+                <p>{{ $comic->description }}</p>
+                <h5>Serie: {{ $comic->series }}</h5>
                 <h3>Prezzo: </h3>
-                <p>{{ $comic['price'] }}€</p>
-                <h3>Serie: </h3>
-                <p>Serie: {{ $comic['series'] }}</p>
+                <p>{{ $comic->price }}€</p>
                 <h3>Data d'uscita: </h3>
-                <p>{{ $comic['sale_date'] }}</p>
+                <p>{{ $comic->sale_date }}</p>
                 <h3>Genere: </h3>
-                <p>{{ $comic['type'] }}</p>
+                <p>{{ $comic->type }}</p>
             </div>
         @endforeach
     </div>
