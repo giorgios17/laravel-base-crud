@@ -1,6 +1,7 @@
 @extends('layout.app')
 @section('content')
     <h1>Lista fumetti:</h1>
+    <a class="add-comic" href="{{ route('comics.create') }}">Aggiungi fumetto</a>
     <div class="flex">
         @foreach ($comics as $comic)
             <div class="card">
