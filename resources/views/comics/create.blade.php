@@ -14,7 +14,7 @@
             <label for="series">Serie:</label>
             <input type="text" name="series" id="series" value=""><br>
             <label for="sale_date">Data d'uscita:</label>
-            <input type="text" name="sale_date" id="sale_date" value=""><br>
+            <input type="date" name="sale_date" id="sale_date" value=""><br>
             <label for="type">Genere:</label>
             <input type="text" name="type" id="type" value=""><br>
             <input type="submit">
