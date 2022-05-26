@@ -42,6 +42,19 @@ h1 {
             background-color: lightgrey;
             text-decoration: none;
         }
+
+    }
+
+    .delete-comic {
+        color: red;
+        position: absolute;
+        left: 15px;
+        top: 15px;
+
+        &:hover {
+            transform: scale(1.5);
+            text-decoration: none;
+        }
     }
 
     p {

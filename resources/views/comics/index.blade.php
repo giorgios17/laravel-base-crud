@@ -6,6 +6,11 @@
         @foreach ($comics as $comic)
             <div class="card">
                 <a class="mod-comic" href="{{ route('comics.edit', $comic->id) }}">MODIFICA</a>
+                <form action="{{ route('comics.destroy', $comic->id) }}" method="post">
+                    @csrf
+                    @method('DELETE')
+                    <input class="delete-comic" type="submit" value="Cancella">
+                </form>
                 <img src="{{ $comic->thumb }}" alt="{{ $comic->title }}">
                 <h3>Titolo: </h3>
                 <p>{{ $comic->title }}</p>
