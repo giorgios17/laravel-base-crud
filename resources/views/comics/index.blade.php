@@ -9,7 +9,8 @@
                 <form action="{{ route('comics.destroy', $comic->id) }}" method="post">
                     @csrf
                     @method('DELETE')
-                    <input class="delete-comic" type="submit" value="Cancella">
+                    <input onclick="return confirm('Are you sure you want to delete this item?')" class="delete-comic"
+                        type="submit" value="Cancella">
                 </form>
                 <img src="{{ $comic->thumb }}" alt="{{ $comic->title }}">
                 <h3>Titolo: </h3>
