@@ -1,7 +1,7 @@
 @extends('layout.app')
 @section('content')
     <div class="form-container">
-        <form action="{{ route('comics.update', ['id' => $comic->id]) }}" method="post">
+        <form action="{{ route('comics.update', $comic->id) }}" method="post">
             @csrf
             @method('PUT')
             <label for="title">Titolo:</label>
