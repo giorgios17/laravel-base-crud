@@ -52,7 +52,7 @@ h1 {
 }
 
 .card .delete-comic:hover {
-  transform: scale(1.5);
+  cursor: pointer;
   text-decoration: none;
 }
 
