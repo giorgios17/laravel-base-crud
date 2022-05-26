@@ -5,6 +5,7 @@
     <div class="flex">
         @foreach ($comics as $comic)
             <div class="card">
+                <a class="mod-comic" href="{{ route('comics.edit', $comic->id) }}">MODIFICA</a>
                 <img src="{{ $comic->thumb }}" alt="{{ $comic->title }}">
                 <h3>Titolo: </h3>
                 <p>{{ $comic->title }}</p>
