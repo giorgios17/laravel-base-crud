@@ -9,7 +9,7 @@
         <h5>Serie: {{ $comic->series }}</h5>
         <h3>Prezzo: </h3>
         <p>{{ $comic->price }}€</p>
-        <h3>Data d'uscita: </h3>
+        <h3>Data di vendita: </h3>
         <p>{{ $comic->sale_date }}</p>
         <h3>Genere: </h3>
         <p>{{ $comic->type }}</p>

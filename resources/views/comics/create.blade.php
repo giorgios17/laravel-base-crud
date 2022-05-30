@@ -13,7 +13,7 @@
             <input type="number" name="price" id="price" value=""><br>
             <label for="series">Serie:</label>
             <input type="text" name="series" id="series" value=""><br>
-            <label for="sale_date">Data d'uscita:</label>
+            <label for="sale_date">Data di vendita:</label>
             <input type="date" name="sale_date" id="sale_date" value=""><br>
             <label for="type">Genere:</label>
             <input type="text" name="type" id="type" value=""><br>

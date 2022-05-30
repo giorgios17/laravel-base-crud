@@ -14,7 +14,7 @@
             <input type="number" name="price" id="price" value="{{ $comic->price }}"><br>
             <label for="series">Serie:</label>
             <input type="text" name="series" id="series" value="{{ $comic->series }}"><br>
-            <label for="sale_date">Data d'uscita:</label>
+            <label for="sale_date">Data di vendita:</label>
             <input type="date" name="sale_date" id="sale_date" value="{{ $comic->sale_date }}"><br>
             <label for="type">Genere:</label>
             <input type="text" name="type" id="type" value="{{ $comic->type }}"><br>
